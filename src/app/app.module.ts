@@ -6,8 +6,7 @@ import { ApiService } from './api.service';
 import { HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DragDropModule} from '@angular/cdk/drag-drop';
-import { SortablejsModule } from 'ngx-sortablejs';
+
 
 @NgModule({
   declarations: [
@@ -21,8 +20,6 @@ import { SortablejsModule } from 'ngx-sortablejs';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DragDropModule,
-    SortablejsModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent],
